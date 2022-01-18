@@ -1,11 +1,5 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
-	background:#fff;
+	background: #fff;
 	font-family: 'Roboto', sans-serif;
 }
 body a{
@@ -22,6 +16,20 @@ h2,h3,h4,h5,h6,p{
 	padding: 0;
 	margin: 0;
 }
+
+
+div.contain {
+width:100%;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
+div.category {
+display: inline-block;
+width: 500px;
+}
+
 .header{
 	background:#181b1e;
 }
@@ -129,7 +137,7 @@ h2,h3,h4,h5,h6,p{
 .banner{
 	background:url(../images/banner.jpg) 0px 0px no-repeat;
 	width:100%;
-	min-height:600px;
+	min-height:330px;
 	display:block;
 	background-size:cover;
 	text-align:center;
@@ -217,29 +225,10 @@ a.down-in{
 }
 .work-grid{
 	float: left;
-	width: 50%;
+	width: 600px;
+	height: 600px;
 	margin: 0.5%;
 	position:relative;
-}
-.work-grid1{
-	width: 47.9%;
-	margin: 0.5% 0% 0.5% 0.5%;
-}
-.work-grid2{
-	width: 23%;
-}
-.work-grid3{
-	width: 24%;
-	float: right;
-	margin: 0.5%;
-}
-.work-grid4{
-	width: 25%;
-	margin: 0.5%;
-	float: left;
-}
-.work-grid5{
-	width: 48%;
 }
 .work-on{
 	margin-top: 3.5%;
@@ -261,8 +250,8 @@ a.down-in{
 	display: none;
 	position: absolute;
 	top: 32px;
-	width: 92%;
-	height: 87%;
+	width: 80%;
+	height: 80%;
 	background:rgba(210, 89, 80, 0.88);
 	left: 23px;
 }
@@ -469,6 +458,7 @@ i.flower{
 /*----*/
 .contact{
 	background:#f2f2f2;
+	margin-top: 30px;
 	text-align:center;
 	padding: 4em 0;
 }
@@ -819,6 +809,7 @@ a.read-next:hover{
 .footer{
 	background: #181b1e;
 	padding: 2em 0;
+	width: 100%;
 	text-align: center;
 	position:relative;
 }
